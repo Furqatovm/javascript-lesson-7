@@ -1,0 +1,36 @@
+*,html{
+    font-family: "Kanit", sans-serif;
+    transition: all 0.3s linear;
+}
+
+button, a{
+    cursor: pointer;
+}
+nav a{
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover{
+    border-bottom-color: red;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    span{
+        color: white;
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
