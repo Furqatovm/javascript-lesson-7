@@ -34,3 +34,8 @@ nav a:hover{
     height: 100%;
     object-fit: cover;
   }
+
+
+  form input::placeholder{
+    color: #8BAAB7;
+  }
