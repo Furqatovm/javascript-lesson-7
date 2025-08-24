@@ -6,3 +6,14 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+
+  let svgs =document.querySelectorAll(".svg");
+  svgs.forEach((val) =>{
+    val.addEventListener("click", ()=>{
+      console.log(val);
+      val.classList.toggle("rotate-180")
+      let spann =val.nextElementSibling;
+      spann.classList.toggle("hidden")
+    })
+  })
